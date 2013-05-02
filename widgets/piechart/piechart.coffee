@@ -19,7 +19,7 @@ class Dashing.Piechart extends Dashing.Widget
         text: "Daily Indicators"
 
       tooltip: 
-        pointFormat: "{series.name}: <b>{point.percentage}%></b>"
+        pointFormat: "{series.name}: <b>{point.percentage}%</b>"
         percentageDecimals: 1
 
       plotOptions:
